@@ -9,8 +9,8 @@ if __name__ == '__main__':
     # 페이스북 api는 고유이름을 이용하여 접근 불가능하므로
     # graph api를 이용하여 고유이름을 통해 고유의 id를 가지고 와야 한다.
     page_name = "jtbcnews"
-    app_id = "111645486170577"
-    app_secret = "3e4ed5ae3aa2d856c09285fdaa50d166"
+    app_id = ""
+    app_secret = ""
     access_token = app_id + "|" + app_secret
 
     # https://graph.facebook.com/v2.10/[page_name]/?access+token=[app_id]|[app_secret]
